@@ -18,6 +18,7 @@ document.getElementById("click-here").addEventListener("click",
    lyrics[i] = lyrics[j]
    lyrics[j] = k
   }
-  document.getElementById("swift-song").innerHTML = lyrics[i];
+  console.log(songLyric);
+  document.getElementById("swift-song").innerHTML = lyrics[0];
  }, false
 );

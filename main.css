@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+ background-image: url(./images/lover-background.png);
+}
+
+body {
+ font-family: 'Uchen', serif;
+}
+
+h2 {
+ font-family: 'Montez', cursive;
+ font-size: 2.5rem;
+ padding-bottom: 10px;
+ border-bottom: white 2px dashed;
+}
+
+main {
+ text-align: center;
+ padding: 5%;
+}
+
+p {
+ padding: 20px 0;
+}
+
+button {
+ font-family: "Roboto", sans-serif;
+ color: #565050;
+ font-size: 1rem;
+ padding: 16px 26px;
+ background-color: #a1c3ba;
+}
+
+#swift-song {
+ font-family: "Roboto", sans-serif;
+ color: floralwhite;
+}
+
+figure {
+ text-align: center;
+}
+
+figure img {
+ width: 100%;
+ max-width: 372px;
+}
